@@ -1,4 +1,6 @@
 import Document, {Html, Head, Main, NextScript} from 'next/document'
+import logo_text from '../logo/odera_words.png'
+import favicon from '/static/favicon.ico'
 
 class MyDocument extends Document {
     render(){
@@ -14,7 +16,7 @@ class MyDocument extends Document {
                 <meta name="author" content="Unbound Coders" />
 
                 
-                <link rel="icon" href="../static/logo/logo.ico" />
+                <link rel="shortcut icon" href="/static/favicon.ico" />
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
