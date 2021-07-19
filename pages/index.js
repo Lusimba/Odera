@@ -65,7 +65,7 @@ export default function Home() {
         <div className="row pt-0 bg-img">
           <div className="col-sm-10 col-md-6 col-lg-6 col-xl-6">
             <div className="row justify-content-center box-margin">
-              <div className="col-sm-10 col-md-8 col-lg-8 col-xl-7 home-pad text-center py-3">
+              <div className="col-9 home-pad text-center py-3">
                 <h1><strong className="renogare">ODHIAMBO ODERA</strong></h1>
                 <h2>& Associates Advocates</h2>
                 <h3>Your Reliable Partner in Law</h3>
@@ -86,7 +86,7 @@ export default function Home() {
         <div className="row py-3 justify-content-center">
           <h1 className="text-center"><strong>Our Services</strong></h1>
           
-          <div className="col-8">
+          <div className="col-sm-10 col-md-8 col-lg-8 col-xl-7">
             <div className="row">
               {services.map(service=>(
                 <div key={service.id} className="card m-2 pt-2" style={{width: "18rem"}}>
