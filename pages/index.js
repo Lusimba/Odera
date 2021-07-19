@@ -86,7 +86,7 @@ export default function Home() {
         <div className="row py-3 justify-content-center">
           <h1 className="text-center"><strong>Our Services</strong></h1>
           
-          <div className="col-sm-8 col-md-9 col-lg-9 col-xl-7">
+          <div className="col-sm-9">
             <div className="row">
               {services.map(service=>(
                 <div key={service.id} className="card m-2 pt-2" style={{width: "18rem"}}>
