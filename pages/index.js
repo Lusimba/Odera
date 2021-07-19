@@ -43,7 +43,7 @@ export default function Home() {
             <div className="row">
               {services.map(service=>(
                 <div key={service.id} className="card m-2" style={{width: "18rem"}}>
-                  <Image className="card-img-top`" height="200rem" width="300rem" className="mt-2" src={service.img_url} alt={service.service_name} />
+                  <Image className="card-img-top`" height="200rem" width="300rem" className="mt-2" src={service.img_url} alt={service.alt} />
                   <div className="card-body">
                     <h5 className="card-title text-center">{service.service_name}</h5>
                   </div>
