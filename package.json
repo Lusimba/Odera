@@ -2,9 +2,16 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
+  "builds": [
+    { "src": "package.json", "use": "@now/next" },
+    { "src": "static/css/", "use": "@now/static" },
+    { "src": "static/images/", "use": "@now/static" },
+    { "src": "static/logo/", "use": "@now/static" },
+    { "src": "static/services.js", "use": "@now/static" }
+],
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
