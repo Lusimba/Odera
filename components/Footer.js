@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import logo from '../logo/odera_logo.svg'
-import logo_text from '../logo/odera_words.png'
+import logo_text from '../logo/odera_assoc.svg'
 
 function Footer() {
     return (
