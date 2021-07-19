@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import Layout from '../components/Layout'
+import services from '../static/services'
 
 export default function Home() {
   return (
@@ -40,42 +41,16 @@ export default function Home() {
           
           <div className="col-9">
             <div className="row">
-              <div className="card m-2" style={{width: "18rem"}}>
-                <Image className="card-img-top" height="200rem" width="300rem" className="mt-2" src="/static/images/civil.jpeg" alt="civil litigation" />
-                <div className="card-body">
-                  <h5 className="card-title text-center">Civil Litigation</h5>
+              {services.map(service=>(
+                <div key={service.id} className="card m-2" style={{width: "18rem"}}>
+                  <Image className="card-img-top" height="200rem" width="300rem" className="mt-2" src={service.img_url} alt="civil litigation" />
+                  <div className="card-body">
+                    <h5 className="card-title text-center">{service.service_name}</h5>
+                  </div>
                 </div>
-              </div>
-              <div className="card m-2" style={{width: "18rem"}}>
-                <Image className="card-img-top" height="200rem" width="300rem" className="mt-2" src="/static/images/succession.jpeg" alt="succession law" />
-                <div className="card-body">
-                  <h5 className="card-title text-center">Succession Law</h5>
-                </div>
-              </div>
-              <div className="card m-2" style={{width: "18rem"}}>
-                <Image className="card-img-top" height="200rem" width="300rem" className="mt-2" src="/static/images/employment.jpeg" alt="employment" />
-                <div className="card-body">
-                  <h5 className="card-title text-center">Employment</h5>
-                </div>
-              </div>
-              <div className="card m-2" style={{width: "18rem"}}>
-                <Image className="card-img-top" height="200rem" width="300rem" className="mt-2" src="/static/images/criminal.jpeg" alt="criminal law" />
-                <div className="card-body">
-                  <h5 className="card-title text-center">Criminal Law</h5>
-                </div>
-              </div>
-              <div className="card m-2" style={{width: "18rem"}}>
-                <Image className="card-img-top" height="200rem" width="300rem" className="mt-2" src="/static/images/family.jpeg" alt="family law" />
-                <div className="card-body">
-                  <h5 className="card-title text-center">Family Law</h5>
-                </div>
-              </div>
-              <div className="card m-2" style={{width: "18rem"}}>
-                <Image className="card-img-top" height="200rem" width="300rem" className="mt-2" src="/static/images/land.jpeg" alt="land matters" />
-                <div className="card-body">
-                  <h5 className="card-title text-center">Land Matters</h5>
-                </div>
-              </div>
+              ))}
+              
+              
             </div>
           </div>
         </div>
