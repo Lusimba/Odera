@@ -11,7 +11,6 @@ function Header() {
                 <div className="container-fluid pt-3">
                     <Navbar.Brand href="/">
                         <Image src={logo} alt="odhiambo odera logo" width="45vh" height="60vh"/>
-                        {/* <Image src={logo_text} alt="odhiambo odera logo" className="mx-1"  width="160vh" height="50vh"/> */}
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
