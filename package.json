@@ -3,12 +3,27 @@
   "version": "0.1.0",
   "private": true,
   "builds": [
-    { "src": "package.json", "use": "@now/next" },
-    { "src": "static/css/", "use": "@now/static" },
-    { "src": "static/images/", "use": "@now/static" },
-    { "src": "static/logo/", "use": "@now/static" },
-    { "src": "static/services.js", "use": "@now/static" }
-],
+    {
+      "src": "package.json",
+      "use": "@now/next"
+    },
+    {
+      "src": "static/css/",
+      "use": "@now/static"
+    },
+    {
+      "src": "static/images/",
+      "use": "@now/static"
+    },
+    {
+      "src": "static/logo/",
+      "use": "@now/static"
+    },
+    {
+      "src": "static/services.js",
+      "use": "@now/static"
+    }
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -19,6 +34,7 @@
     "bootstrap": "^5.0.0-beta3",
     "material-design-icons": "^3.0.1",
     "next": "11.0.1",
+    "next-images": "^1.8.1",
     "react": "17.0.2",
     "react-bootstrap": "^1.6.1",
     "react-dom": "17.0.2"

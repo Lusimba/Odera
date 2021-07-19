@@ -2,7 +2,54 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import Layout from '../components/Layout'
-import services from '../static/services'
+
+import civil from '../images/civil.jpeg'
+import succession from '../images/succession.jpeg'
+import employment from '../images/employment.jpeg'
+import criminal from '../images/criminal.jpeg'
+import family from '../images/family.jpeg'
+import land from '../images/land.jpeg'
+
+
+const services = [
+  {
+      'id':'1',
+      'service_name':'Civil Litigation',
+      'img_url':civil,
+      'alt':'Civil Litigation',
+  },
+  {
+      'id':'2',
+      'service_name':'Succession Law',
+      'img_url':succession,
+      'alt':'Succession Law',
+  },
+  {
+      'id':'3',
+      'service_name':'Employment',
+      'img_url':employment,
+      'alt':'Employment',
+  },
+  {
+      'id':'4',
+      'service_name':'Criminal Law',
+      'img_url':criminal,
+      'alt':'Criminal Law',
+  },
+  {
+      'id':'5',
+      'service_name':'Family Law',
+      'img_url':family,
+      'alt':'Family Law',
+  },
+  {
+      'id':'6',
+      'service_name':'Land Matters',
+      'img_url':land,
+      'alt':'Land Matters',
+  },
+]
+
 
 export default function Home() {
   return (

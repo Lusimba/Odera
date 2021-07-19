@@ -1,14 +1,14 @@
 @font-face {
-    src: url('/static/css/astrospace/astrospace-ez2bg-webfont.woff2') format('woff2'),
-         url('/static/css/astrospace/astrospace-ez2bg-webfont.woff') format('woff');
+    src: url('./astrospace/astrospace-ez2bg-webfont.woff2') format('woff2'),
+         url('./astrospace/astrospace-ez2bg-webfont.woff') format('woff');
     font-family: 'a_astro_spaceregular';
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
-    src: url('/static/css/renogare/renogare-webfont.woff2') format('woff2'),
-         url('/static/css/renogare/renogare-webfont.woff') format('woff');
+    src: url('./renogare/renogare-webfont.woff2') format('woff2'),
+         url('./renogare/renogare-webfont.woff') format('woff');
     font-family: 'renogareregular';
     font-weight: normal;
     font-style: normal;

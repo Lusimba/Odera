@@ -1,11 +1,13 @@
 import Image from 'next/image'
+import logo from '../logo/odera_logo.svg'
+import logo_text from '../logo/odera_assoc.svg'
 
 function Footer() {
     return (
         <footer  className="row pt-3">
             <div className="col-sm-10 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center">
-                <Image src="/static/logo/odera_logo.svg" alt="logo" width="100" height="100"/>
-                <Image src="/static/logo/odera_assoc.svg" alt="logo" className="mx-2" width="250" height="100"/>
+                <Image src={logo} alt="logo" width="100" height="100"/>
+                <Image src={logo_text} alt="logo" className="mx-2" width="250" height="100"/>
             </div>
             <div id="contact" className="col-sm-5 col-md-4 col-lg-4 col-xl-4 vertical">
                 <h3>Address</h3>
