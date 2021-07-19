@@ -1,0 +1,144 @@
+@font-face {
+    src: url('/static/css/astrospace/astrospace-ez2bg-webfont.woff2') format('woff2'),
+         url('/static/css/astrospace/astrospace-ez2bg-webfont.woff') format('woff');
+    font-family: 'a_astro_spaceregular';
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    src: url('/static/css/renogare/renogare-webfont.woff2') format('woff2'),
+         url('/static/css/renogare/renogare-webfont.woff') format('woff');
+    font-family: 'renogareregular';
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body{
+    font-family: 'Poppins', 'Open Sans', sans-serif, sans-serif, 'Roboto', sans-serif;
+}
+
+main{
+    min-height: 55vh;
+}
+footer{
+    background-color: #231F1E;
+    color:white;
+}
+
+.renogare{
+    font-family: 'renogareregular';
+    font-weight: normal;
+    font-style: normal;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+
+/* .nav-height{
+    max-height: 10vh !important;
+} */
+
+
+.home-pad{
+    background-color: white;
+    opacity: 0.8;
+}
+
+.green{
+    color:#1A980F;
+    font-size: larger;
+}
+
+@media (max-width: 767px) {
+    .bg-img{
+        background-image: url(../images/happy_family.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100vw;
+        /* min-height: 50vh; */
+    }
+    
+    .vertical {
+        text-align: center;
+        padding: .5rem;
+    }
+    
+  }
+  
+  @media (min-width: 768px){
+    .bg-img{
+        background-image: url(../images/happy_family.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 99vw;
+        min-height: 85vh;
+    }
+    
+    .box-margin{
+        padding-top: 20%;
+    }
+
+    .vertical {
+        border-left: 3px solid white;
+    }
+    
+  }
+
+.footer-copyright{
+    font-family: 'renogareregular';
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.button-cta{
+    padding: 0.5rem 0.7rem;
+    background-color: #755239;
+    color: white;
+    max-width: fit-content;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+.button-cta:hover{
+    padding: 0.5rem 0.7rem;
+    background-color: #231F1E;
+    color: white;
+    max-width: fit-content;
+    border-radius: 0.2rem;
+}
+
+.button-cta:active{
+    padding: 0.5rem 0.7rem;
+    background-color: #fff;
+    color: black;
+    max-width: fit-content;
+    border-radius: 0.2rem;
+}
+
+
+/* Builder */
+.builder{
+    font-family: 'a_astro_spaceregular';
+    font-weight: normal;
+    font-style: normal;
+    width:100%;
+    background-color: white;
+
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+}
+
+.builder-red{
+    color: #F01A20;
+}
+
+.builder-blue{
+    color: #0D3D72;
+}
