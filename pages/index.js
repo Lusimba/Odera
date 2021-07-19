@@ -87,7 +87,7 @@ export default function Home() {
           <h1 className="text-center"><strong>Our Services</strong></h1>
           
           <div className="col-sm-9">
-            <div className="row">
+            <div className="row d-flex justify-content-center">
               {services.map(service=>(
                 <div key={service.id} className="card m-2 pt-2" style={{width: "18rem"}}>
                   <Image className="card-img-top`" height="200rem" width="300rem"
