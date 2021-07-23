@@ -21,7 +21,8 @@ function Footer() {
                 <span>email address: info@koderaadvocates.com</span>
             </div>
             <div className="footer-copyright py-3 text-center">
-                &copy; 2021- {new Date().getFullYear()} Odhiambo Odera & Associates Advocates
+                &copy; 2021- {new Date().getFullYear()} <br />
+                Odhiambo Odera & Associates Advocates
             </div>
             <div className="builder py-1 text-center">
                 <a href="https://www.unboundcoders.com" target="_blank" rel="noopener noreferrer">
