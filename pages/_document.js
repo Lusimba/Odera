@@ -8,6 +8,7 @@ class MyDocument extends Document {
             <Html lang="en">
             <Head>
                 <meta charet="UTF-8" />
+                <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
                 <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
                 <meta name="robots" content="index, follow" />
                 <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
@@ -16,7 +17,6 @@ class MyDocument extends Document {
                 <meta name="author" content="Unbound Coders" />
 
                 
-                <link rel="shortcut icon" href="/static/favicon.ico" />
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
