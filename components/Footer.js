@@ -5,9 +5,9 @@ import logo_text from '../logo/odera_words.png'
 function Footer() {
     return (
         <footer  className="row pt-3">
-            <div className="col-sm-10 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center">
-                <Image src={logo} alt="logo" width="90" height="100"/>
-                <Image src={logo_text} alt="logo" className="mx-2 my-1" width="250rem" height="40rem"/>
+            <div className="mh col-sm-10 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center">
+                <Image src={logo} alt="logo" width="70" height="100"/>
+                <Image src={logo_text} alt="logo" className="mx-2 my-1" width="250rem" height="10rem"/>
             </div>
             <div id="contact" className="col-sm-5 col-md-4 col-lg-4 col-xl-4 vertical">
                 <h3>Address</h3>

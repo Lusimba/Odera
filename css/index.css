@@ -154,3 +154,6 @@ a:link{
 .builder-blue{
     color: #0D3D72;
 }
+.mh{
+    max-height: 5rem !important;
+}
